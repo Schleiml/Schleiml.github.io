@@ -4,32 +4,32 @@ let PC_Auswahl;
 function Schere_isPressed() {
     Auswahl = "Schere";
     document.getElementById("Schere").style.backgroundColor = "green";
-    document.getElementById("Ich").textContent = "Ich = Schere";
+    document.getElementById("Ich").textContent = "Ich = ✂️";
     console.log("Meine Auswahl: " + Auswahl);
 }
 function Stein_isPressed() {
     Auswahl = "Stein";
     document.getElementById("Stein").style.backgroundColor = "green";
-    document.getElementById("Ich").textContent = "Ich = Stein";
+    document.getElementById("Ich").textContent = "Ich = 🪨";
     console.log("Meine Auswahl: " + Auswahl);
 }
 function Papier_isPressed() {
     Auswahl = "Papier";
     document.getElementById("Papier").style.backgroundColor = "green";
-    document.getElementById("Ich").textContent = "Ich = Papier";
+    document.getElementById("Ich").textContent = "Ich = 📃";
     console.log("Meine Auswahl: " + Auswahl);
 }
 function Choosing() {
     PC_Auswahl = Math.floor(Math.random() * 3) + 1;
     if (PC_Auswahl == 1) {
         PC_Auswahl = "Schere";
-        document.getElementById("Bot").textContent = "Bot = Schere";
+        document.getElementById("Bot").textContent = "Bot = ✂️";
     } else if (PC_Auswahl == 2) {
         PC_Auswahl = "Stein";
-        document.getElementById("Bot").textContent = "Bot = Stein";
+        document.getElementById("Bot").textContent = "Bot = 🪨";
     } else if (PC_Auswahl == 3) {
         PC_Auswahl = "Papier";
-        document.getElementById("Bot").textContent = "Bot = Papier";
+        document.getElementById("Bot").textContent = "Bot = 📃";
     }
     console.log("Bot Auswahl: " + PC_Auswahl);
 }

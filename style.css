@@ -1,18 +1,69 @@
 body {
-    background-color: rgb(147, 229, 246);
+    background-color: #93e5f6;
     text-align: center;
 }
 #Schere {
     margin-right: 100px;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: #4dd9f5;
+    border: #008eaa solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 750%;
 }
 #Stein {
     margin-left: 100px;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: #4dd9f5;
+    border: #008eaa solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 750%;
 }
 #Papier {
+    width: 300px;
+    height: 200px;
+    background-color: #4dd9f5;
+    border: #008eaa solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 750%;
+}
+#Vergleich {
+    font-size: 70px;
+}
+#Ausgang {
+    font-size: 70px;
+}
+#Auswahl_Opp {
     width: 200px;
     height: 100px;
+    background-color: #2fb2cd;
+    border: #007188 solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 50px;
+    margin-right: 10px
+}
+#Check {
+    width: 200px;
+    height: 100px;
+    background-color: #2fb2cd;
+    border: #007188 solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 50px;
+    margin-left: 10px;
+}
+#weiter {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #2fb2cd;
+    border: #007188 solid 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #008eaa;
+    font-size: 50px;
 }
