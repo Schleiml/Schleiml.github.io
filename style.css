@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(147, 229, 246);
+    text-align: center;
+}
+#Schere {
+    margin-right: 100px;
+    width: 200px;
+    height: 100px;
+}
+#Stein {
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+}
+#Papier {
+    width: 200px;
+    height: 100px;
+}
